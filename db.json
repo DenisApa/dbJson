@@ -1,0 +1,229 @@
+{
+    "source": "mockoon:1.15.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 17,
+                "name": "Demo API",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 3009,
+                "hostname": "0.0.0.0",
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "names",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"data\": [\"Vasya\", \"Lena\", \"Petya\"]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "news",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"data\": [\n    {\n      \"title\": \"News 1\",\n      \"text\": \"svdsdv dsvsdvsd vdfevds\"\n    },\n    {\n      \"title\": \"News 2\",\n      \"text\": \"sv dsdv dsv sd vsd vdfevds\"\n    },\n    {\n      \"title\": \"News 3\",\n      \"text\": \"sv vdfevds\"\n    }\n    ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "images",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"data\": [\n    {\n      \"title\": \"Austin\",\n      \"img\": \"images/cities/city1.png\"\n    },\n    {\n      \"title\": \"Denver\",\n      \"img\": \"images/cities/city2.png\"\n    },\n    {\n      \"title\": \"Austin\",\n      \"img\": \"images/cities/city3.png\"\n    },\n    {\n      \"title\": \"Atlanta\",\n      \"img\": \"images/cities/city4.png\"\n    }\n    ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "membership",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"data\": [\n    {\n      \"img\": \"img/mem.png\",\n      \"title\": \"Lease how you want\",\n      \"text\": \"Stay between one and 12+ months with the ability to transfer to other homes in the Landing network.\"\n    },\n    {\n      \"img\": \"img/mem2.png\",\n      \"title\": \"Bounce around or stay put\",\n      \"text\": \"We're always expanding our network to give you the best selection and options.\"\n    },\n    {\n      \"img\": \"img/mem3.png\",\n      \"title\": \"Keep cash in your pocket\",\n      \"text\": \"No application fees or security deposit.\"\n    },\n    {\n      \"img\": \"img/mem4.png\",\n      \"title\": \"Enjoy guaranteed peace of mind\",\n      \"text\": \"If you’re not completely satisfied in your first week, we’ll make it right.\"\n    },\n    {\n      \"img\": \"img/mem5.png\",\n      \"title\": \"Get up to 7 free travel days\",\n      \"text\": \"Stay with Landing on your next trip. Get up to 7 free days every year.\"\n    },\n    {\n      \"img\": \"img/mem6.png\",\n      \"title\": \"Rest easy with 24/7 member support\",\n      \"text\": \"Questions can come up anytime, so we’re always available to help.\"\n    }\n    ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "testimonials",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"data\": [\n  {\n\t\t\"id\": \"1\",\n\t\t\"stars\": \"4\",\n\t\t\"names\": \"Waseem A.\",\n\t\t\"country\": \"Fort Lauderdale, FL\",\n\t\t\"text\": \"Even on the conservative side, apartment buildings expect a three-month minimum (lease)... If they do offer month-to-month, it’s often as much as twice the rental price, and it’s incredibly annoying to furnish a place if you’re only going to live there for a month.\"\n\t},\n\t{\n\t\t\"id\": \"2\",\n\t\t\"stars\": \"5\",\n\t\t\"names\": \"Michael H.\",\n\t\t\"country\": \"Tampa, FL\",\n\t\t\"text\": \"Landing’s apartments have everything under the sun. When we arrived, we brought things that we thought Landing wouldn’t know we needed. But they had it – so now we have two of everything\"\n\t},\n\t{\n\t\t\"id\": \"3\",\n\t\t\"stars\": \"3\",\n\t\t\"names\": \"Daniel O.\",\n\t\t\"country\": \"Nashville, TN\",\n\t\t\"text\": \"The biggest perk is the flexibility, the fact that if I want to live anywhere from Nashville to Seattle, Austin to New York City, I have a way to do it. Landing makes the world accessible in a way that it wasn’t before.\"\n\t}\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "arrimages",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"data\": [\n  {\n\t\t\"path\": \"img/Frame.png\",\n\t\t\"alt\": \"Image\"\n\t},\n\t{\n\t\t\"path\": \"img/Frame1.png\",\n\t\t\"alt\": \"Image\"\n\t},\n\t{\n\t\t\"path\": \"img/Frame2.png\",\n\t\t\"alt\": \"Image\"\n\t},\n\t{\n\t\t\"path\": \"img/Frame3.png\",\n\t\t\"alt\": \"Image\"\n\t},\n\t{\n\t\t\"path\": \"img/Frame4.png\",\n\t\t\"alt\": \"Image\"\n\t},\n\t{\n\t\t\"path\": \"img/Frame5.png\",\n\t\t\"alt\": \"Imahe\"\n\t}\n\t]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "choice",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"data\": [\n    {\n      \"img\": \"choice1\",\n      \"title\": \"Ecstatic elegance\",\n      \"text\": \"Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add.\"\n    },\n    {\n      \"img\": \"choice2\",\n      \"title\": \"Folly words widow\",\n      \"text\": \"Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what.\"\n    },\n    {\n      \"img\": \"choice3\",\n      \"title\": \"Possible procured trifling\",\n      \"text\": \"We me rent been part what. An concluded sportsman offending so provision mr education.\"\n    },\n    {\n      \"img\": \"choice4\",\n      \"title\": \"Open game\",\n      \"text\": \"Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable.\"\n    },\n    {\n      \"img\": \"choice5\",\n      \"title\": \"Endeavor\",\n      \"text\": \"Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady. \"\n    },\n    {\n      \"img\": \"choice6\",\n      \"title\": \"Comfort pursuit\",\n      \"text\": \"Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug.\"\n    }\n    ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "proxyRemovePrefix": false,
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Origin",
+                        "value": "*"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Methods",
+                        "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Headers",
+                        "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
