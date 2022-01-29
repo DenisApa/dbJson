@@ -57,5 +57,37 @@
             "title": "Easy to Use",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed donec gravida"
         }
+    ],
+    "services": [
+        {
+            "img": "#services-branding",
+            "title": "Branding",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore. Exepteur sintolmelt occaecat cupidatat non proid."
+        },
+        {
+            "img": "#services-web",
+            "title": "Web Design",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore. Exepteur sintolmelt occaecat cupidatat non proid."
+        },
+        {
+            "img": "#services-ux",
+            "title": "UX/UI Design",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore. Exepteur sintolmelt occaecat cupidatat non proid."
+        },
+        {
+            "img": "#services-graphic",
+            "title": "Graphic Design",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore. Exepteur sintolmelt occaecat cupidatat non proid."
+        },
+        {
+            "img": "#services-motion",
+            "title": "Motion Graphics",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore. Exepteur sintolmelt occaecat cupidatat non proid."
+        },
+        {
+            "img": "#services-marketing",
+            "title": "Marketing",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore. Exepteur sintolmelt occaecat cupidatat non proid."
+        }
     ]
 }
